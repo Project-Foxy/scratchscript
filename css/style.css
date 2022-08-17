@@ -4,8 +4,9 @@
 
 #text {
     bottom: 20px;
-    
-    margin: auto;
+
+    margin-left: 100px;
+    margin-top: -0px;
     padding: 1px;
     text-align: center;
 
@@ -32,9 +33,12 @@
     height: 2pc;
     width: 10pc;
 
-    text-align: center;
-    left: 565px;
-    bottom: 120px;
+    top:40%;
+    bottom: 0;
+    left: 80px;
+    right: 0;
+    margin: auto;
+    padding: 1px;
    
 }
 
