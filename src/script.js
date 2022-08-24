@@ -20,8 +20,10 @@ setup({}, () => {
     
     const colors = ["#FFFFFF", "#C0C0C0", "#808080", "#000000", "#FF0000", "#800000", "#FFFF00", "#808000", "#00FF00", "#008000", "#00FFFF"]
     
-    const screen_size = {width:window.innerWidth - 40, height:window.innerHeight - 40};
+    let screen_size = {width:screen.width - 40, height: screen.height - 40};
 
+    // x: 907
+    // y: 905
     
     var colorcount = 0;
 
@@ -29,15 +31,15 @@ setup({}, () => {
     
     obj.clone("box", "div")
     obj.style.color = "#000000"
-    obj.style.width = 904
-    obj.style.height = 585
+    obj.style.width = 20
+    obj.style.height = 20
     obj.append("box")
-/*
+
     forever(()=>{
-        
+
         var ActivateUp = false; 
 
-        if (ActivateUp == false && screen_size.width <= obj.style.y) {
+        if (ActivateUp == false && screen_size.height <= obj.style.y) {
             ActivateUp = true;
         }
 
@@ -68,9 +70,9 @@ setup({}, () => {
         
         obj.update("box")
         obj.append("box", true)
+        
+        say({width:screen.width - 40, height: screen.height - 40})
 
-    })*/
-
-    say(screen_size)
+    })
 
 })
