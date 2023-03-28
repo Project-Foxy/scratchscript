@@ -1,4 +1,4 @@
-# Scratch_cpp
+# Scratch++
+
 Scratch++
 
-https://project-foxy.github.io/scratch_cpp/
